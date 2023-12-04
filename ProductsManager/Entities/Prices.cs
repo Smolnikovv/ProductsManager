@@ -8,5 +8,6 @@
         public double NettPriceDiscount { get; set; }
         public int VATRate { get; set; }
         public double NettPriceDiscountLU { get; set; }
+        public virtual Products Products { get; set; }
     }
 }
