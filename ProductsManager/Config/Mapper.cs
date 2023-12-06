@@ -12,7 +12,8 @@ namespace ProductsManager.Config
         }
         private void MapProduct()
         {
-            CreateMap<Products, ProductDto>();
+           // CreateMap<Products, ProductDto>()
+              //  .ForMember(x=>x.NettPrice,c=>c.MapFrom(s=>s.Prices.NettPrice))
         }
     }
 }
