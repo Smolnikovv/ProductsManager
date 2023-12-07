@@ -12,5 +12,7 @@
         public bool Avialable { get; set; }
         public bool IsVendor { get; set; }
         public string DefaultImage { get; set; }
+        public virtual Prices Prices { get; set; }
+        public virtual Inventory Inventory { get; set; }
     }
 }
