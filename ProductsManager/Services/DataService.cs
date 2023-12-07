@@ -8,9 +8,9 @@ namespace ProductsManager.Services
     }
     public class DataService : IDataService
     {
-        private readonly Mapper _mapper;
+        private readonly MappingProfile _mapper;
         private readonly DatabaseContext _databaseContext;
-        public DataService(Mapper mapper, DatabaseContext databaseContext)
+        public DataService(MappingProfile mapper, DatabaseContext databaseContext)
         {
             _mapper = mapper;
             _databaseContext = databaseContext;

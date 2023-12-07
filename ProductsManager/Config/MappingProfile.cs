@@ -4,9 +4,9 @@ using ProductsManager.Model;
 
 namespace ProductsManager.Config
 {
-    public class Mapper : Profile
+    public class MappingProfile : Profile
     {
-        public Mapper()
+        public MappingProfile()
         {
             MapProduct();
         }
